@@ -1,0 +1,103 @@
+KARGO HIRING RUBRIC - Product Manager (PM) and Senior Product Manager (SPM)
+Derived from 8 past hire profiles, not from the job descriptions.
+
+PATTERNS FOUND (Exceeds Expectations vs Meets / Below)
+
+Pattern 1 - They did the operational work themselves before doing their current job.
+  All five "Exceeds" hires spent real time doing freight / logistics work with their own hands:
+  Rohan ran import-export documentation for 180+ shipments a month at a CHA firm at JNPT;
+  Sunita handled B/Ls and customs paperwork for 200+ shipments a month; Aditya managed berth,
+  detention and DO-release escalations at a JNPT terminal; Meghna sorted out a customs hold
+  overnight with the CHA; Lavanya did carrier allocation and exception management for 800+ shipments.
+  Vikram (HR-tech PM), Rahul (fintech marketing) and Preetham (e-commerce backend, touched 3PLs only
+  through APIs) never did the operational work.
+
+Pattern 2 - They noticed something broken, fixed it without being asked, and other people adopted the fix.
+  Rohan built an Excel shipment tracker because "the team had no reliable way to know where each
+  shipment stood" - 12-person team adopted it in two weeks; later prototyped a B/L verification tool
+  over a weekend, 30 colleagues using it within a month. Sunita redesigned her team's intake workflow
+  over a weekend when a vendor changed its export format; retained permanently. Meghna's onboarding
+  checklist became the CS team standard. Lavanya's Excel visibility dashboard was adopted by 2 other
+  regional teams. The Meets/Below hires describe things they shipped as part of their assigned job
+  (Vikram's 12 features, Preetham's index tuning), not fixes they started on their own because
+  something was broken in front of them.
+
+Pattern 3 - They write down what failed and what changed because of it.
+  Aditya spent 4 months on a deal that was lost, wrote the post-mortem (wrong economic buyer, misread
+  procurement cycle) and it became standard practice. Lavanya killed 2 features when usage data
+  contradicted discovery, and wrote the internal and customer-facing outage post-mortem. Meghna found an
+  undocumented product limitation, filed it and ran customer comms through a 6-week fix. Rohan led a
+  vendor migration after diagnosing reliability problems. Vikram's, Rahul's and Preetham's CVs contain
+  only successes - no killed work, no loss, no post-mortem.
+
+SCORING SCALE (used for every criterion)
+  5 = matches "strong" clearly, with specifics (numbers, named outcome, named situation)
+  4 = mostly strong, one element thin
+  3 = partial - the behaviour appears once or vaguely
+  2 = weak - only implied or only in generic wording
+  1 = matches "weak" / no evidence in the CV
+Criterion score -> weighted total out of 100 = sum(weight x score / 5).
+
+=== PM ===
+
+Criterion name: Hands-on operations time
+What a strong candidate looks like: Has personally done ground-level operations work in freight, logistics, supply chain, ports, warehousing or a similar physical-operations business (handled shipments, documents, carriers, customs, dispatch, exceptions) for at least a year, and the CV names concrete volumes or situations (e.g. "managed 400+ movements monthly", "resolved customs holds"). Operations work in another physical domain (manufacturing floor, field ops, healthcare ops) scores 3-4.
+What a weak candidate looks like: Has only worked on software for operations users from a desk - talks about "users", "stakeholders" or "integrations with 3PLs" but has never done the operational job; or no operations exposure at all.
+Weight: 30%
+Source: Rohan Desai (CHA documentation, JNPT), Sunita Krishnamurthy, Aditya Shetty (JNPT terminal), Meghna Tiwari, Lavanya Iyer (Mahindra Logistics). Absent in Vikram Nair, Rahul Bose, Preetham Rao.
+
+Criterion name: Unprompted fix that others adopted
+What a strong candidate looks like: At least one specific case where they spotted a broken or missing process that was not their assigned work, built a fix themselves quickly (days or weeks - a sheet, tool, checklist, prototype, process), and other people kept using it - the CV says who adopted it and how many (e.g. "adopted by the 12-member team within two weeks", "became the branch's standard").
+What a weak candidate looks like: Only lists features or projects that were their assigned job, or improvements with no sign anyone else adopted them; generic lines like "drove process improvements" or "streamlined workflows" with no trigger, no artefact and no adopters.
+Weight: 25%
+Source: Rohan Desai (Excel tracker; weekend B/L prototype), Sunita Krishnamurthy (weekend workflow redesign), Meghna Tiwari (onboarding checklist), Lavanya Iyer (visibility dashboard).
+
+Criterion name: Kills and post-mortems
+What a strong candidate looks like: The CV names something that did not work - a feature they killed, a deal they lost, an outage, a failed launch, a wrong assumption - and states what they concluded and what changed afterwards (redirected capacity, new practice, rewritten process). Bonus if they wrote the post-mortem themselves.
+What a weak candidate looks like: Every bullet is a success. No killed work, no loss, no reversal, no lesson. "Shipped N features" with no mention of what was dropped.
+Weight: 20%
+Source: Aditya Shetty (lost-deal post-mortem became standard), Lavanya Iyer (killed 2 features on data; outage post-mortem), Meghna Tiwari (product limitation through 6-week fix). Absent in Vikram Nair, Rahul Bose, Preetham Rao.
+
+Criterion name: No layer between them and the consequence
+What a strong candidate looks like: Worked directly with the people affected by their decisions and owned the outcome without a manager or intermediary layer in between - e.g. "sole PM", "no account manager layer between client and execution", "translated field requirements without a product layer", "no escalation to management in 14 months". For PM, one clear instance is enough for a 5.
+What a weak candidate looks like: Always one of several people in a team with a senior person above making the call ("supported senior PMs", "part of a 12-engineer team", "presented roadmap to CTO for approval"); customer contact only through other teams.
+Weight: 15%
+Source: Lavanya Iyer ("sole PM"; "made calls we trusted immediately"), Aditya Shetty ("no account manager layer"), Rohan Desai ("without a product layer"), Meghna Tiwari. Contrast: Vikram Nair (one of a 4-PM team, roadmap to CTO), Preetham Rao (one of 12 engineers).
+
+Criterion name: Proof by usage, not credentials
+What a strong candidate looks like: Results are stated as what other people did differently - adoption, active use, fewer tickets, retention, on-time shipments - with numbers (e.g. "3x weekly active use within 30 days", "support tickets down 60%"). Certifications and titles are incidental.
+What a weak candidate looks like: The CV leans on credentials, frameworks, talks, certifications, or output counts ("shipped 12 features", "Product School CPO", "speaker at...") with little evidence of how users' behaviour changed.
+Weight: 10%
+Source: Lavanya Iyer and Meghna Tiwari (usage/churn outcomes) vs Vikram Nair (certifications, speaking, feature counts).
+
+=== SPM ===
+
+Criterion name: Hands-on operations time
+What a strong candidate looks like: Two or more years doing ground-level operations work in freight, logistics, supply chain or ports themselves (shipments, documentation, carriers, customs, exceptions), AND has since carried that knowledge into product or systems decisions - the CV links an operational problem they lived to something they later built or decided. Operations in another physical domain scores 3.
+What a weak candidate looks like: Domain knowledge only through customers, research or integrations; or operations time that is short (a rotation or internship) and never connected to later product work.
+Weight: 20%
+Source: Rohan Desai (ops at JNPT -> built the B/L module he once did by hand), Lavanya Iyer (3PL carrier ops -> carrier integration product).
+
+Criterion name: Unprompted fix that others adopted
+What a strong candidate looks like: Multiple cases (at least two) of spotting a broken process outside their remit, building the fix themselves, and seeing it adopted beyond their own team - other teams, branches, or the whole company - with the adopter count stated. At least one should be a standard or system others now run on.
+What a weak candidate looks like: One small team-internal improvement, or improvements described without a trigger, artefact or adopters; or only assigned roadmap work.
+Weight: 20%
+Source: Rohan Desai (tracker adopted by 12; prototype to 30 users, now a core feature), Lavanya Iyer (dashboard adopted by 2 other regional teams; first carrier review process at the branch).
+
+Criterion name: Kills and post-mortems
+What a strong candidate looks like: Names a significant call that went wrong or was reversed (killed product line, lost major deal, outage, failed migration), shows they owned the write-up, and states a lasting change that resulted (new standard, changed strategy, practice adopted by others).
+What a weak candidate looks like: No failures or reversals at all; or failures mentioned only as someone else's problem they cleaned up, with no conclusion drawn.
+Weight: 20%
+Source: Aditya Shetty (post-mortem became team practice), Lavanya Iyer (kills + outage post-mortem with follow-ups to closure).
+
+Criterion name: No layer between them and the consequence
+What a strong candidate looks like: Sustained periods (a year or more, ideally more than once) as the final decision-maker for an area with no senior person above approving their calls - sole PM, founder or founding team, solo consultant, first hire in a function - including decisions with long-lived consequences (vendor/platform choices, migrations, what not to build), and they lived with the result.
+What a weak candidate looks like: Senior titles but decisions routed through a Head/VP/committee; "aligned stakeholders" or "presented to leadership" as the main verbs; ownership only of execution, not of the call.
+Weight: 30%
+Source: Sunita Krishnamurthy (independent consultant, scoped and ran a full system migration), Rohan Desai (led vendor migration; most senior engineer in the room), Lavanya Iyer (sole PM). Contrast: Vikram Nair.
+
+Criterion name: Proof by usage, not credentials
+What a strong candidate looks like: Outcomes stated as changes in other people's behaviour or business results that trace to their decisions - adoption, retention, churn, integration time, unblocked deals - with numbers, across more than one role.
+What a weak candidate looks like: Leans on credentials, frameworks, titles, team size or output counts; outcomes vague ("drove growth", "improved efficiency").
+Weight: 10%
+Source: Meghna Tiwari (6% churn vs 24% team), Lavanya Iyer (3x weekly active use). Contrast: Vikram Nair.
